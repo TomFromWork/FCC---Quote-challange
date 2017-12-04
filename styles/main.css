@@ -1,0 +1,38 @@
+html, body {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffdd57;
+}
+
+.card.is-wide {
+  width: 550px;
+}
+
+.card.has-text-centered, .card-header, .card-content, .card-footer {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.card-content {
+  padding: 3.5rem 0;
+}
+
+.card-footer {
+  padding: 1rem 0;
+  border: none;
+  font-size: .9rem;
+  color: lighten(black, 50%);
+}
+
+button {
+  margin: 5px;
+}
